@@ -12,12 +12,16 @@
     "release:minor": "shelljs-release minor",
     "release:patch": "shelljs-release patch"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfischer/shelljs-plugin-tr"
+  },
   "keywords": [
     "tr",
     "shelljs",
     "plugin"
   ],
-  "author": "Nate Fischer <ntfschr@gmail.com>",
+  "author": "Nate Fischer <ntfschr@gmail.com> (https://github.com/nfischer)",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.1.1",
