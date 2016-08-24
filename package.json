@@ -1,0 +1,35 @@
+{
+  "name": "shelljs-plugin-tr",
+  "version": "0.1.0",
+  "description": "A tr plugin for ShellJS",
+  "main": "index.js",
+  "scripts": {
+    "posttest": "npm run lint --silent",
+    "test": "mocha",
+    "lint": "eslint .",
+    "changelog": "shelljs-changelog",
+    "release:major": "shelljs-release major",
+    "release:minor": "shelljs-release minor",
+    "release:patch": "shelljs-release patch"
+  },
+  "keywords": [
+    "tr",
+    "shelljs",
+    "plugin"
+  ],
+  "author": "Nate Fischer <ntfschr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-plugin-import": "^1.11.1",
+    "mocha": "^2.5.3",
+    "shelljs": "^0.7.3",
+    "shelljs-changelog": "^0.2.2",
+    "shelljs-release": "^0.2.0",
+    "should": "^10.0.0"
+  },
+  "peerDependencies": {
+    "shelljs": "^0.7.3"
+  }
+}
