@@ -29,7 +29,7 @@ function complement(set) {
 }
 
 function tr(opts, set1, set2) {
-  var pipe = plugin.readFromPipe(this);
+  var pipe = plugin.readFromPipe();
   set1 = set1.replace(/.-./g, expandSet);
 
   if (opts.complement) {
