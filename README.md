@@ -2,6 +2,7 @@
 
 [![Travis](https://img.shields.io/travis/nfischer/shelljs-plugin-tr/master.svg?style=flat-square&label=unix)](https://travis-ci.org/nfischer/shelljs-plugin-tr)
 [![npm](https://img.shields.io/npm/v/shelljs-plugin-tr.svg?style=flat-square)](https://www.npmjs.com/package/shelljs-plugin-tr)
+[![shelljs-plugin](https://img.shields.io/badge/shelljs-plugin-brightgreen.svg?style=flat-square)](https://github.com/shelljs/shelljs/wiki/Using-ShellJS-Plugins)
 
 A [ShellJS](https://github.com/shelljs/shelljs) plugin for the `tr()` command.
 
