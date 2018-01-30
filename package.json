@@ -1,6 +1,6 @@
 {
   "name": "shelljs-plugin-tr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A tr plugin for ShellJS",
   "main": "index.js",
   "scripts": {
