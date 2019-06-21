@@ -8,8 +8,9 @@ function expandSet(range) {
   var first = alphabet.indexOf(range[0]);
   var last = alphabet.indexOf(range[2]) + 1;
 
-  if (first > last)
+  if (first > last) {
     plugin.error('range-endpoints of ' + range + ' are in reverse order');
+  }
 
   var ret = alphabet.slice(first, last);
   return ret;
@@ -17,8 +18,9 @@ function expandSet(range) {
 exports.expandSet = expandSet;
 
 function getChar(str, idx) {
-  if (idx < str.length)
+  if (idx < str.length) {
     return str[idx];
+  }
   return str[str.length - 1];
 }
 

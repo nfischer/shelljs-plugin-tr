@@ -1,4 +1,4 @@
-/* globals describe, it, tr */
+/* globals describe, it */
 
 var pluginTr = require('..');
 var shell = require('shelljs'); // recommended

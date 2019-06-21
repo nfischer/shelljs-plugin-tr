@@ -10,6 +10,8 @@
     "spaced-comment": [2, "always", { "markers": ["@", "@include"], "exceptions": ["@"] }],
     "no-param-reassign": 0,
     "no-console": 0,
+    "no-else-return": 0,
+    "no-plusplus": 0,
     "curly": 0,
     "func-names": 0,
     "new-cap": [2, {
