@@ -24,10 +24,10 @@
   "author": "Nate Fischer <ntfschr@gmail.com> (https://github.com/nfischer)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.3",
-    "mocha": "^7.2.0",
+    "mocha": "^6.1.4",
     "shelljs": "^0.8.5",
     "shelljs-changelog": "^0.2.6",
     "shelljs-release": "^0.5.2",
